@@ -44,9 +44,9 @@ kotlin {
             // implementation(libs.kobwebx.markdown)
 
             implementation("org.jetbrains.kotlin-wrappers:kotlin-extensions:1.0.1-pre.256-kotlin-1.5.31")
-            implementation(npm("tailwindcss", "4.1.8"))
+            implementation(npm("tailwindcss", "4.3.0"))
             implementation(npm("postcss", "8.5.4"))
-            implementation(npm("@tailwindcss/postcss", "4.1.8"))
+            implementation(npm("@tailwindcss/postcss", "4.3.0"))
             implementation(devNpm("postcss-loader", "8.1.1"))
         }
     }
